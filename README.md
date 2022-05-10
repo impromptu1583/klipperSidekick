@@ -1,11 +1,11 @@
 # klipperSidekick
 Klipper config and macros for use with the Lulzbot sidekick
 
-# firmware flashing
+## firmware flashing
 TODO
 
-# configuration
+## configuration
 TODO
 
-# slicer onfig (CURALE or other)
+## slicer onfig (CURALE or other)
 TODO

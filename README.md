@@ -1,8 +1,11 @@
-# klipperSidekick
+# KlipperSidekick
 Klipper config and macros for use with the Lulzbot sidekick
 
-## firmware flashing
+## Firmware flashing
 Follow the flashing instructions in [Klipper's Documentation](https://www.klipper3d.org/Installation.html)
+
+Choose `Atmega AVR` as the architecture and `atmega2560` as the processor model on the menuconfig section.
+![alt text](images/readme/01-menuconfig.png)
 
 ## configuration
 TODO

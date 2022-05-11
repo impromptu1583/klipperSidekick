@@ -5,7 +5,7 @@ Klipper config and macros for use with the Lulzbot sidekick
 This is very much a work-in-progress config. Use at your own risk and please be safe.
 Also, please review [Issue #1](https://github.com/mcmillanje/klipperSidekick/issues/1).
 
-###I'm currently taking the approach of assuming the gantry is parked at zmax so make sure it's there before homing or you may damage your bed / toolhead!
+### I'm currently taking the approach of assuming the gantry is parked at zmax so make sure it's there before homing or you may damage your bed / toolhead!
 
 ## Firmware flashing
 Follow the flashing instructions in [Klipper's Documentation](https://www.klipper3d.org/Installation.html)

@@ -11,9 +11,21 @@ Follow the instructions closely and if you receive any timeout messages power th
 
 ## configuration
 TODO
+z probe
+toolhead
+pid
 
-## slicer onfig (CURALE or other)
-TODO
+## slicer config (CURALE or other)
+Macros contains a START_PRINT and END_PRINT macro
+Replace start gcode with:
+```
+START_PRINT BED_TEMP={material_bed_temperature_layer_0} EXTRUDER_TEMP={material_print_temperature_layer_0}
+```
+Replace end gcode with:
+```
+END_PRINT
+```
+
 
 ## reference material
 ### hardware

@@ -1,6 +1,12 @@
 # KlipperSidekick
 Klipper config and macros for use with the Lulzbot sidekick
 
+# WARNING
+This is very much a work-in-progress config. Use at your own risk and please be safe.
+Also, please review [Issue #1](https://github.com/mcmillanje/klipperSidekick/issues/1).
+
+###I'm currently taking the approach of assuming the gantry is parked at zmax so make sure it's there before homing or you may damage your bed / toolhead!
+
 ## Firmware flashing
 Follow the flashing instructions in [Klipper's Documentation](https://www.klipper3d.org/Installation.html)
 
@@ -10,6 +16,7 @@ Choose `Atmega AVR` as the architecture and `atmega2560` as the processor model 
 Follow the instructions closely and if you receive any timeout messages power the printer off and back on again then retry.
 
 ## configuration
+
 TODO
 z probe
 toolhead

@@ -7,6 +7,8 @@ Follow the flashing instructions in [Klipper's Documentation](https://www.klippe
 Choose `Atmega AVR` as the architecture and `atmega2560` as the processor model on the menuconfig section.
 ![alt text](images/readme/01-menuconfig.png)
 
+Follow the instructions closely and if you receive any timeout messages power the printer off and back on again then retry.
+
 ## configuration
 TODO
 

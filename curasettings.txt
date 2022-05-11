@@ -1,5 +1,20 @@
 CURA Gcode start/end
 
+
+
+
+
+START_PRINT BED_TEMP={material_bed_temperature_layer_0} EXTRUDER_TEMP={material_print_temperature_layer_0}
+
+END_PRINT
+
+
+
+
+
+
+
+
 Start Gcode:
 
 M109 R{material_soften_temperature} ; soften filament before homing Z
@@ -51,8 +66,8 @@ M117 Print Complete.                      ; print complete message
 
 
 ### new
+G0 Y0 Z184 E0 F3000 ; park gantry at zmax
 M400
 TURN_OFF_HEATERS
 M107 ; disable fans
-G0 Y0 Z184 E0 F3000 ; park gantry at zmax
 M18

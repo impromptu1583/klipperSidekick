@@ -2,7 +2,7 @@
 Klipper config and macros for use with the Lulzbot sidekick
 
 ## firmware flashing
-TODO
+Follow the flashing instructions in [Klipper's Documentation](https://www.klipper3d.org/Installation.html)
 
 ## configuration
 TODO

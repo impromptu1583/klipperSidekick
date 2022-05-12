@@ -32,9 +32,12 @@ danger_home
 #### toolhead
 Uncomment the toolhead you're using. You can make multiple toolhead files for different configurations and easily switch this way.
 
-TODO
+#### filament runout sensor
+Comment / Uncomment the filament runout sensor section of settings.cfg depending on if you have this upgrade installed
+
+TODO: 
 z probe
-pid
+pid Tuning
 
 ## slicer config (CURALE or other)
 Macros contains a START_PRINT and END_PRINT macro

@@ -39,7 +39,23 @@ TODO:
 z probe
 pid Tuning
 
-## slicer config (CURALE or other)
+## slicer config (Superslicer / Prusaslicer)
+My slicer of choice is Superslicer is a fork of Prusaslicer that has a built-in klipper preset.
+
+For either Superslicer or Prusaslicer add these custom gcode commands in the printer settings tab:
+
+Replace start gcode with:
+```
+START_PRINT BED_TEMP=[bed_temperature] EXTRUDER_TEMP=[first_layer_temperature]
+```
+Replace end gcode with:
+```
+END_PRINT
+```
+
+You may also need to check `Only custom Start G-code`.
+
+## slicer config (CURA)
 Macros contains a START_PRINT and END_PRINT macro
 Replace start gcode with:
 ```
